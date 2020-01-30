@@ -24,7 +24,7 @@ int main()
         for(int i = 2; i <= userNumber / 2; ++i)
         {
             if(userNumber % i == 0)         // Checks if the user number has a remainder that isn't 0
-            {                               // If it's remainder is 0 then it isn't a prime number, hence isPrime = false
+            {                               // If its remainder is 0 then it isn't a prime number, hence isPrime = false
                 isPrime = false;
                 break;
             }
