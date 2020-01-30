@@ -1,4 +1,4 @@
-/* Week 2: Program 1
+/* Week 2 - practice1
 
     Calculates square of user input and prints it
 
