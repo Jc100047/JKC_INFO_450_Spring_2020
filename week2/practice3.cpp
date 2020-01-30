@@ -1,4 +1,4 @@
-/*  Week 2 - Practice3
+/*  Week 2 - practice3
 
     Program determines if the year entered by the user is a leap year
 
