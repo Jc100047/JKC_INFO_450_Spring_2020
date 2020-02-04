@@ -1,4 +1,4 @@
-/*  Week 2 - practice3
+/*  Week 2 - Practice3
 
     Program determines if the year entered by the user is a leap year
 
@@ -12,28 +12,39 @@ int main()
 {
     int userYear;
 
-    cout << "Enter a year to see if it is a leap year: ";
-    cin >> userYear;
-    cout << endl << endl;
+    cout << "\t---Leap Year Program---" << endl << endl;
+    cout << "To end the program enter 0" << endl << endl;
 
-    if(userYear % 4 == 0)
+
+    while(userYear != 0)
     {
-        if(userYear % 100 == 0 && userYear % 400 != 0)
+        cout << "Enter a year to see if it is a leap year: ";
+        cin >> userYear;
+        cout << endl << endl;
+
+        if(userYear == 0)
         {
-            cout << "The year " << userYear << " is not a leap year." << endl;
+            break;
         }
-        else if(userYear % 100 == 0 && userYear % 400 == 0)
+
+        if(userYear % 4 == 0)
         {
-            cout << "The year " << userYear << " is a leap year." << endl;
+            if(userYear % 100 == 0 && userYear % 400 != 0)
+            {
+                cout << "The year " << userYear << " is not a leap year." << endl << endl;
+            }
+            else if(userYear % 100 == 0 && userYear % 400 == 0)
+            {
+                cout << "The year " << userYear << " is a leap year." << endl << endl;
+            }
+            else
+            {
+                cout << "The year " << userYear << " is a leap year." << endl << endl;
+            }
         }
         else
         {
-            cout << "The year " << userYear << " is a leap year." << endl;
+            cout << "The year " << userYear << " is not a leap year." << endl << endl;
         }
     }
-    else
-    {
-        cout << "The year " << userYear << " is not a leap year." << endl;
-    }
-
 }
