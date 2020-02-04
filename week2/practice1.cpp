@@ -11,7 +11,7 @@
 
 using namespace std;
 
-long double calculateSq(double userInput);
+long double calculateSq(long double userInput);
 
 int main()
 {
