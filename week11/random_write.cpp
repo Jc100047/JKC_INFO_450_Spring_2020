@@ -15,10 +15,14 @@ int main()
     }
 
     srand (time(NULL));
+    
+    int randNum;
 
     for(int i = 0; i < 1000; i++)
     {
-        out << rand() % 2000 + (-1000) << endl;
+        randNum = rand() % 2000 + (-1000);
+        
+        out << randNum << endl;
     }
 
     out.close();
