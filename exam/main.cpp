@@ -9,7 +9,7 @@
 using namespace std;
 
 int menu(savings *sa, checking *ch, creditcard *cr);
-void executeTasks(int taskNum, savings *save, checking *check, creditcard *credit);
+void executeTasks(int taskNum, savings *sa, checking *ch, creditcard *cr);
 double GetAmount();
 int GetCheckNum();
 string GetName();
